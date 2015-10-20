@@ -35,6 +35,7 @@ gem 'haml-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'dotenv-rails'
   gem 'rspec-rails', '~> 3.0'
   gem 'byebug'
   gem 'pry'
